@@ -15,7 +15,6 @@
     <FileEntry Name="UC6_Delete_ticket.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="Watches.xml" Filter="2" />
-    <FileEntry Name="userData.dat" Filter="2" />
     <FileEntry Name="combined_UC6_Delete_ticket.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="233083632440.idx" Filter="1" />
@@ -38,6 +37,8 @@
     <FileEntry Name="UC4_Itinerary.prm.bak" Filter="1" />
     <FileEntry Name="UC6_Delete_ticket.c.pickle" Filter="1" />
     <FileEntry Name="UC6_Delete_ticket.ci" Filter="1" />
+    <FileEntry Name="UC6_Delete_ticket.prm.bak" Filter="1" />
+    <FileEntry Name="userData.dat" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />

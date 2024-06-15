@@ -57,7 +57,7 @@ Action=cci
 Action2=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC4_Itinerary__*delimiter*__home_page__*delimiter*__login__*delimiter*__click_itinerary__*delimiter*__logout__*delimiter*__delete_ticket__*delimiter*__itinerary__*delimiter*__delete_ticket"
+Order="UC4_Itinerary__*delimiter*__home_page__*delimiter*__login__*delimiter*__click_itinerary__*delimiter*__delete_ticket__*delimiter*__logout__*delimiter*__itinerary__*delimiter*__delete_ticket"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -68,6 +68,6 @@ UC4_Itinerary=
 home_page=
 login=
 click_itinerary=
-logout=
 delete_ticket=
+logout=
 itinerary=

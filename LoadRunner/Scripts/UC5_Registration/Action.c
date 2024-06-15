@@ -139,7 +139,7 @@ Action()
 	
 		lr_think_time(2030);
 	
-		web_reg_find("Text=Thank you, <b>{login}</b>, for registering ",
+		web_reg_find("Text=Thank you, <b>{login}{rnd}</b>, for registering ",
 		LAST);
 
 		
@@ -151,7 +151,7 @@ Action()
 			"Referer=http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
 			"Snapshot=t8.inf", 
 			"Mode=HTTP", 
-			"Body=username={login}&password={password}&passwordConfirm={password}&firstName={firstName}&lastName={lastName}&address1={address1}&address2={address2}&register.x=47&register.y=11", 
+			"Body=username={login}{rnd}&password={password}&passwordConfirm={password}&firstName={firstName}&lastName={lastName}&address1={address1}&address2={address2}&register.x=47&register.y=11", 
 			LAST);
 
 	lr_end_transaction("fill_user_data",LR_AUTO);
