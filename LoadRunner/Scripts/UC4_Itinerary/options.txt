@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Cource\Stream_1\Examples\Scripts\UC4_Itinerary
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\cource\stream_1\examples\scripts\uc4_itinerary\\logfile.log
+d:\cource\stream_1\examples\scripts\uc4_itinerary\\combined_UC4_Itinerary.c
+d:\cource\stream_1\examples\scripts\uc4_itinerary\\pre_cci.c

@@ -1,0 +1,16 @@
+[t6]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=text/html
+StepName=Custom Request: login.pl
+Total=2
+FileName1=t6.html
+FileName2=t7_5_profileValidate.UNK
+RequestHeaderFile=t6_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t6_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=login.pl
+RequestBodyFile=t6_RequestBody.txt
+RawStepStartTime=1716483493404
+URL1=http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true
+URL2=http://localhost:1080/WebTours/profileValidate.js

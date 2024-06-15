@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>UC2_Buy Ticket</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="UC2_Buy Ticket.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="DfeConfig\" Filter="4" />
+    <FileEntry Name="UC2_Buy Ticket.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="cities.dat" Filter="2" />
+    <FileEntry Name="seatPref.dat" Filter="2" />
+    <FileEntry Name="userData.dat" Filter="2" />
+    <FileEntry Name="combined_UC2_Buy Ticket.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="182897330440.idx" Filter="1" />
+    <FileEntry Name="205977879440.idx" Filter="1" />
+    <FileEntry Name="253090086440.idx" Filter="1" />
+    <FileEntry Name="41216856440.idx" Filter="1" />
+    <FileEntry Name="4121685644_0zT.205.idx" Filter="1" />
+    <FileEntry Name="4121685644_485.713.idx" Filter="1" />
+    <FileEntry Name="4121685644_6A6.291.idx" Filter="1" />
+    <FileEntry Name="4121685644_71w.811.idx" Filter="1" />
+    <FileEntry Name="4121685644_cgS.335.idx" Filter="1" />
+    <FileEntry Name="4121685644_LgO.357.idx" Filter="1" />
+    <FileEntry Name="4121685644_qvr.467.idx" Filter="1" />
+    <FileEntry Name="4121685644_rgh.799.idx" Filter="1" />
+    <FileEntry Name="4121685644_Vlr.905.idx" Filter="1" />
+    <FileEntry Name="4121685644_Z6N.637.idx" Filter="1" />
+    <FileEntry Name="56557908440.idx" Filter="1" />
+    <FileEntry Name="79231103440.idx" Filter="1" />
+    <FileEntry Name="7923110344_2Nf.471.idx" Filter="1" />
+    <FileEntry Name="7923110344_8GR.675.idx" Filter="1" />
+    <FileEntry Name="7923110344_Dsy.571.idx" Filter="1" />
+    <FileEntry Name="7923110344_EAp.255.idx" Filter="1" />
+    <FileEntry Name="7923110344_gj0.77.idx" Filter="1" />
+    <FileEntry Name="7923110344_H5b.638.idx" Filter="1" />
+    <FileEntry Name="7923110344_iMZ.206.idx" Filter="1" />
+    <FileEntry Name="7923110344_Izk.468.idx" Filter="1" />
+    <FileEntry Name="7923110344_jeq.714.idx" Filter="1" />
+    <FileEntry Name="7923110344_jwK.906.idx" Filter="1" />
+    <FileEntry Name="7923110344_Mcm.358.idx" Filter="1" />
+    <FileEntry Name="7923110344_Qj7.800.idx" Filter="1" />
+    <FileEntry Name="7923110344_Rst.812.idx" Filter="1" />
+    <FileEntry Name="7923110344_SI9.292.idx" Filter="1" />
+    <FileEntry Name="7923110344_uHj.336.idx" Filter="1" />
+    <FileEntry Name="7923110344_xbE.429.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="seatPref(1).dat" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UC2_Buy Ticket.c.pickle" Filter="1" />
+    <FileEntry Name="UC2_Buy Ticket.ci" Filter="1" />
+    <FileEntry Name="UC2_Buy Ticket.prm.bak" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

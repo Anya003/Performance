@@ -1,0 +1,16 @@
+[t13]
+SnapshotXmlFile=snapshot_14.xml
+ContentType=text/html
+StepName=Custom Request: home.html_2
+Total=2
+FileName1=t13.html
+FileName2=t7_7_profileValidate.UNK
+RequestHeaderFile=t13_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t13_ResponseHeader.txt
+RawStepEndTime=1716483495578
+RawStepName=home.html_2
+RequestBodyFile=t13_RequestBody.txt
+RawStepStartTime=1716483495594
+URL1=http://localhost:1080/WebTours/home.html
+URL2=http://localhost:1080/WebTours/profileValidate.js

@@ -1,0 +1,13 @@
+[t11]
+SnapshotXmlFile=snapshot_11.xml
+ContentType=text/html
+StepName=Custom Request: reservations.pl
+Total=1
+FileName1=t11.html
+RequestHeaderFile=t11_RequestHeader.txt
+ResponseHeaderFile=t11_ResponseHeader.txt
+RawStepEndTime=1716484715290
+RawStepName=
+RequestBodyFile=t11_RequestBody.txt
+RawStepStartTime=1716484715305
+URL1=http://localhost:1080/cgi-bin/reservations.pl?page=welcome

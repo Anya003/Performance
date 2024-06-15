@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Cource\Stream_1\Examples\Scripts\UC3_Find_flights
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\cource\stream_1\examples\scripts\uc3_find_flights\\logfile.log
+d:\cource\stream_1\examples\scripts\uc3_find_flights\\combined_UC3_Find_flights.c
+d:\cource\stream_1\examples\scripts\uc3_find_flights\\pre_cci.c

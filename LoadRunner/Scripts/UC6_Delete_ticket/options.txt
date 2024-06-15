@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Cource\Stream_1\Examples\Scripts\UC6_Delete_ticket
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\cource\stream_1\examples\scripts\uc6_delete_ticket\\logfile.log
+d:\cource\stream_1\examples\scripts\uc6_delete_ticket\\combined_UC6_Delete_ticket.c
+d:\cource\stream_1\examples\scripts\uc6_delete_ticket\\pre_cci.c

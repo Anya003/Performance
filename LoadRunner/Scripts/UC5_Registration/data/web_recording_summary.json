@@ -1,0 +1,387 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 10,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "май-20-2024",
+    "RecordingDuration": 2353515,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1716229762,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 24649,
+    "TotalBytesSent": 12297,
+    "TotalRequests": 15,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "localhost",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[::1]",
+          "IncludeInScript": true,
+          "Name": "localhost",
+          "Port": 1080,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 243,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://localhost:1080/WebTours/home.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 109,
+              "EventId": 241,
+              "HttpStatus": 200,
+              "Size": 1729,
+              "URL": "http://localhost:1080/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 229,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 215,
+              "HttpStatus": 200,
+              "Size": 1180,
+              "URL": "http://localhost:1080/cgi-bin/login.pl?intro=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 204,
+              "EventId": 205,
+              "HttpStatus": 200,
+              "Size": 1742,
+              "URL": "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 204,
+              "EventId": 195,
+              "HttpStatus": 200,
+              "Size": 856,
+              "URL": "http://localhost:1080/cgi-bin/welcome.pl?page=menus"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 169,
+              "HttpStatus": 200,
+              "Size": 1318,
+              "URL": "http://localhost:1080/cgi-bin/login.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 219,
+              "EventId": 143,
+              "HttpStatus": 200,
+              "Size": 11288,
+              "URL": "http://localhost:1080/WebTours/profileValidate.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 313,
+              "EventId": 137,
+              "HttpStatus": 200,
+              "Size": 2710,
+              "URL": "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 313,
+              "EventId": 102,
+              "HttpStatus": 404,
+              "Size": 209,
+              "URL": "http://localhost:1080/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 76,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://localhost:1080/WebTours/home.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 74,
+              "HttpStatus": 200,
+              "Size": 1725,
+              "URL": "http://localhost:1080/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 218,
+              "EventId": 60,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 55,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://localhost:1080/WebTours/header.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 26,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://localhost:1080/WebTours/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "64.233.165.94",
+          "IncludeInScript": false,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 93,
+              "EventId": 109,
+              "HttpStatus": 200,
+              "Size": 1392,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=14:GuctJbCE5sAhToDslWptB92P-kLWW1VKqMSBaNEtdGM&cup2hreq=e30e1307b1b958963abd6bcb144d9fe101c442a3e122f28f8d55b03c4bfb5044"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 78,
+              "EventId": 30,
+              "HttpStatus": 200,
+              "Size": 281,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=14:GEDqD88LqHSGxYFQHZFkxCR6YSFtMgpDMYoSN6emXhg&cup2hreq=5ad37fcf909d326caf648116a4cf1432e24ec24cc6f4d04919017040ba8aeb19"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "74.125.131.95",
+          "IncludeInScript": false,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 313,
+              "EventId": 127,
+              "HttpStatus": 200,
+              "Size": 3269,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTI0LjAuNjM2Ny4yMDgaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCp_RYaAhgHAIZSciIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQr7cOGgIYB5jadcoiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABEMOuDhoCGAe41QRQIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDqvgcaAhgH4AhGtSIEIAEgAigBGigIARAIGhoKDQgBEAgYASIDMDAxMAQQpTkaAhgHx2Y9JSIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQ-vYCGgIYB5veRdciBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgHleOcaiIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGAf3A12UIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARCFFhoCGAfyCyx_IgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARCJnAIaAhgHtjgZuCIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQzv0OGgIYB2ZpwPUiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEJgkGgIYB71y8vciBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "64.233.165.95",
+          "IncludeInScript": false,
+          "Name": "passwordsleakcheck-pa.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 422,
+              "EventId": 183,
+              "HttpStatus": 200,
+              "Size": 155464,
+              "URL": "https://passwordsleakcheck-pa.googleapis.com/v1/leaks:lookupSingle"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "74.125.131.95",
+          "IncludeInScript": false,
+          "Name": "optimizationguide-pa.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 125,
+              "EventId": 32,
+              "HttpStatus": 200,
+              "Size": 701,
+              "URL": "https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "74.125.131.95",
+          "IncludeInScript": false,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 203,
+              "EventId": 153,
+              "HttpStatus": 200,
+              "Size": 143,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTI0LjAuNjM2Ny4yMDgSQwnltd2FX5SCfhIFDeeNQA4SBQ3OQUx6EgUNODaJhxIFDWtomm4SBQ1Pnif4EgUNY5MnhxIFDaJZuEkhO6ArAVEPxjM=?alt=proto"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "173.194.220.94",
+          "IncludeInScript": false,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 28,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=124"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

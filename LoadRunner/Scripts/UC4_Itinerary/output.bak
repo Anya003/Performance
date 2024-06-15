@@ -1,0 +1,118 @@
+Virtual User Script started at: 20.05.2024 12:32:30
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\Cource\Stream_1\Examples\Scripts\UC4_Itinerary\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "UC4_Itinerary" started.
+Action.c(7): Notify: Transaction "home_page" started.
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(11): web_add_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(11): web_add_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(14): web_add_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(14): web_add_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(17): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(17): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(20): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(20): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(23): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(23): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(26): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(26): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(29): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(29): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(32): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(32): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(35): web_custom_request("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(35): web_custom_request("WebTours") was successful, 366 body bytes, 298 header bytes  	[MsgId: MMSG-26386]
+Action.c(44): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(44): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(47): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(47): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(52): web_custom_request("header.html") started  	[MsgId: MMSG-26355]
+Action.c(52): web_custom_request("header.html") was successful, 710 body bytes, 297 header bytes  	[MsgId: MMSG-26386]
+Action.c(61): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(61): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(64): web_custom_request("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(64): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO" (count=1)  	[MsgId: MMSG-26364]
+Action.c(64): web_custom_request("welcome.pl") was successful, 686 body bytes, 327 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(74): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action.c(74): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(76): web_custom_request("home.html") started  	[MsgId: MMSG-26355]
+Action.c(76): Registering web_custom_request("home.html") was successful  	[MsgId: MMSG-26390]
+Action.c(85): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(85): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(91): web_custom_request("nav.pl") started  	[MsgId: MMSG-26355]
+Action.c(91): Registering web_custom_request("nav.pl") was successful  	[MsgId: MMSG-26390]
+Action.c(101): web_custom_request("home.html_2") started  	[MsgId: MMSG-26355]
+Action.c(101): Registering web_custom_request("home.html_2") was successful  	[MsgId: MMSG-26390]
+Action.c(110): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action.c(101): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"   [issued at Action.c(110)]  	[MsgId: MMSG-26558]
+Action.c(110): web_concurrent_end was successful, 2851 body bytes, 554 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(112): Notify: Transaction "home_page" ended with a "Pass" status (Duration: 0,5184 Wasted Time: 0,0810).
+Action.c(114): Notify: Transaction "login" started.
+Action.c(116): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(116): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(119): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(119): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(124): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(124): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(127): web_custom_request("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(127): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+Action.c(127): web_custom_request("login.pl") was successful, 481 body bytes, 358 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(138): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action.c(138): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(140): web_custom_request("nav.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(140): Registering web_custom_request("nav.pl_2") was successful  	[MsgId: MMSG-26390]
+Action.c(150): web_custom_request("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(150): Registering web_custom_request("login.pl_2") was successful  	[MsgId: MMSG-26390]
+Action.c(160): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action.c(160): web_concurrent_end was successful, 2400 body bytes, 483 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(162): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.2520 Wasted Time: 0.0064).
+Action.c(166): Notify: Transaction "click_itinerary" started.
+Action.c(168): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(168): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(171): web_custom_request("Itinerary Button") started  	[MsgId: MMSG-26355]
+Action.c(171): Registered web_reg_find successful for "Text= User wants the intineraries" (count=1)  	[MsgId: MMSG-26364]
+Action.c(171): web_custom_request("Itinerary Button") was successful, 591 body bytes, 215 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(181): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action.c(181): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(183): web_custom_request("nav.pl_3") started  	[MsgId: MMSG-26355]
+Action.c(183): Registering web_custom_request("nav.pl_3") was successful  	[MsgId: MMSG-26390]
+Action.c(193): web_custom_request("itinerary.pl") started  	[MsgId: MMSG-26355]
+Action.c(193): Registering web_custom_request("itinerary.pl") was successful  	[MsgId: MMSG-26390]
+Action.c(203): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action.c(203): web_concurrent_end was successful, 52096 body bytes, 510 header bytes, 119 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(205): web_custom_request("in_itinerary.gif") started  	[MsgId: MMSG-26355]
+Action.c(205): web_custom_request("in_itinerary.gif") was successful, 733 body bytes, 297 header bytes  	[MsgId: MMSG-26386]
+Action.c(214): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action.c(214): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(216): web_custom_request("cancelallreservations.gif") started  	[MsgId: MMSG-26355]
+Action.c(216): Registering web_custom_request("cancelallreservations.gif") was successful  	[MsgId: MMSG-26390]
+Action.c(225): web_custom_request("cancelreservation.gif") started  	[MsgId: MMSG-26355]
+Action.c(225): Registering web_custom_request("cancelreservation.gif") was successful  	[MsgId: MMSG-26390]
+Action.c(234): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action.c(234): web_concurrent_end was successful, 1573 body bytes, 594 header bytes  	[MsgId: MMSG-26386]
+Action.c(236): Notify: Transaction "click_itinerary" ended with a "Pass" status (Duration: 0.3014 Wasted Time: 0.0121).
+Action.c(240): Notify: Transaction "logout" started.
+Action.c(242): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(242): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(245): web_custom_request("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(245): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO" (count=1)  	[MsgId: MMSG-26364]
+Action.c(245): web_custom_request("SignOff Button") was successful, 686 body bytes, 327 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(255): web_custom_request("nav.pl_4") started  	[MsgId: MMSG-26355]
+Action.c(255): web_custom_request("nav.pl_4") was successful, 1488 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(265): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1900 Wasted Time: 0,0056).
+Action.c(267): Notify: Transaction "UC4_Itinerary" ended with a "Pass" status (Duration: 1,3733 Wasted Time: 0,1051).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,357 @@
+[API Trapper      (61f4:51bc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (3144:4c6c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (60f4:547c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (60f4:4e58)] ------------------------------------------------------------------------------------------
+[Network Analyzer (60f4:4e58)] Load Network Traffic Analyzers:
+[Network Analyzer (60f4:4e58)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (60f4:4e58)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (60f4:4e58)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (60f4:4e58)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (60f4:4e58)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (60f4:4e58)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (60f4:4e58)]     Analyzer Module: local_server (value=)
+[Network Analyzer (60f4:4e58)] ------------------------------------------------------------------------------------------
+[Network Analyzer (60f4:2a28)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid=  2)  PROXIED!
+[API Trapper      (2960:523c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (60f4:4d48)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (60f4:4d48)] SSLAccept(ssl_id = 2931515322128 = 000002AA8BEDEF10) Failed, ctx = 000002AA8BEF0420, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (60f4:4d48)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (60f4:2a28)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (60f4:4564)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (60f4:4564)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (60f4:2a28)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (60f4:5390)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (60f4:5390)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (60f4:2a28)]   (Sid:  2) Connection Terminated (by Client)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 108.177.14.84:443   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (60f4:2a28)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=124"   
+[Network Analyzer (60f4:2a28)]   (Sid:  4) Client -> Server @ : 475 bytes (SSL)(Service=HTTP)
+[Network Analyzer (60f4:2998)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (60f4:2998)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (60f4:2a28)]   (Sid:  4) Server -> Client : 181 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid:  5) Client -> Server @ : 584 bytes (SSL)(Service=HTTP)
+[Network Analyzer (60f4:3164)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (60f4:2a28)] "POST /v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (60f4:2a28)]   (Sid:  5) Client -> Server @ : 920 bytes (SSL)(Service=HTTP)
+[Network Analyzer (60f4:3164)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (60f4:4b38)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (60f4:4b38)] SSLAccept(ssl_id = 2931515477344 = 000002AA8BF04D60) Failed, ctx = 000002AA8BF6B200, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (60f4:4b38)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (60f4:2a28)]   (Sid:  5) Server -> Client : 1182 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid:  6) Client -> Server @ : 748 bytes (SSL)(Service=HTTP)
+[Web Request      (60f4:2a28)] "POST /service/update2/json?cup2key=14:Ax1-6MPbKQ4PWKdFz2_MT4pwNBmS_1Xesd_SJ1G6sXI&cup2hreq=dd4fcdda7d81b8f4f276d087d37a290e80f5d7ac1bf5e66aa1e16587ca8479a3"   
+[Network Analyzer (60f4:2a28)]   (Sid:  6) Client -> Server @ : 1440 bytes (SSL)(Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid:  6) Server -> Client : 1473 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid:  7) Connection Terminated (by Client)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 108.177.14.84:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (60f4:3240)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (60f4:3240)] SSLAccept(ssl_id = 2931515416480 = 000002AA8BEF5FA0) Failed, ctx = 000002AA8BF6B200, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (60f4:3240)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Web Request      (60f4:2a28)] "GET /WebTours/"   
+[Network Analyzer (60f4:2a28)]   (Sid:  9) Client -> Server @ : 773 bytes (Service=HTTP)
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (60f4:2a28)]   (Sid:  9) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 108.177.14.84:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (60f4:2a28)] "GET /WebTours/header.html"   
+[Network Analyzer (60f4:2a28)]   (Sid: 10) Client -> Server @ : 810 bytes (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 10) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (60f4:3658)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (60f4:2a28)]   (Sid: 10) Connection Terminated (by Server)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:3658)] SSLAccept(ssl_id = 2931516022160 = 000002AA8BF89D90) Failed, ctx = 000002AA8BF6B200, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Net An. Error    (60f4:3658)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (60f4:2a28)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (60f4:2a28)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (60f4:2a28)]   (Sid: 17) Client -> Server @ : 721 bytes (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 17) Server -> Client : 1286 bytes  (Service=HTTP)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (60f4:2a28)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (60f4:2a28)]   (Sid: 17) Client -> Server @ : 762 bytes (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 17) Server -> Client : 1992 bytes  (Service=HTTP)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (60f4:2a28)]   (Sid: 17) Connection Terminated (by Server)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 108.177.14.84:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (60f4:1ebc)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (60f4:1ebc)] SSLAccept(ssl_id = 2931516052288 = 000002AA8BF91340) Failed, ctx = 000002AA8BF6B200, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (60f4:1ebc)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (60f4:2a28)] "GET /WebTours/home.html"   
+[Network Analyzer (60f4:2a28)]   (Sid: 23) Client -> Server @ : 858 bytes (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 23) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      (60f4:2a28)] "GET /favicon.ico"   
+[Network Analyzer (60f4:2a28)]   (Sid: 23) Client -> Server @ : 627 bytes (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 23) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (60f4:6240)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (60f4:6240)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (60f4:2a28)] "POST /service/update2/json?cup2key=14:ZEc5Cj1O0tbNhqZ1tSCK5Igipgnp8La_KR-rnRuikBM&cup2hreq=80648998a022a0889dbcc1c6394db4af8b812ccf42fbf7eae3a8ebcee8c2f70e"
+[Network Analyzer (60f4:2a28)]   (Sid: 26) Client -> Server @ : 1339 bytes (SSL)(Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 26) Client -> Server @ : 8479 bytes (SSL)(Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 26) Server -> Client : 2129 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 173.194.222.95:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (60f4:5f14)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (60f4:5f14)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (60f4:2a28)] "GET /v1/ohttp/hpkekeyconfig?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (60f4:2a28)]   (Sid: 27) Client -> Server @ : 392 bytes (SSL)(Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 27) Server -> Client : 365 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent login [Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 108.177.14.84:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (60f4:5970)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:5970)] SSLAccept(ssl_id = 2931516176080 = 000002AA8BFAF6D0) Failed, ctx = 000002AA8BF6B200, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Net An. Error    (60f4:5970)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 29)  PROXIED!
+[Web Request      (60f4:2a28)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (60f4:2a28)]   (Sid: 29) Client -> Server @ : 1014 bytes (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (60f4:2a28)]   (Sid: 29) Server -> Client : 1091 bytes  (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 32)  PROXIED!
+[Web Request      (60f4:2a28)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (60f4:2a28)]   (Sid: 29) Client -> Server @ : 867 bytes (Service=HTTP)
+[Web Request      (60f4:2a28)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (60f4:2a28)]   (Sid: 30) Client -> Server @ : 862 bytes (Service=HTTP)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (60f4:2a28)]   (Sid: 29) Server -> Client : 2009 bytes  (Service=HTTP)
+[Network Analyzer (60f4:57dc)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (60f4:2a28)]   (Sid: 30) Server -> Client : 1419 bytes  (Service=HTTP)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (60f4:57dc)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Web Request      (60f4:2a28)] "POST /v1/leaks:lookupSingle"   
+[Network Analyzer (60f4:2a28)]   (Sid: 31) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (60f4:2a28)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 31) Server -> Client : 9707 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent login [Network Analyzer (60f4:2a28)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer (60f4:2a28)]   (Sid: 30) Connection Terminated (by Server)
+[API Trapper      (4f60:2b68)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (60f4:2a28)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 74.125.131.95:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (60f4:5be8)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (60f4:5be8)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (60f4:2a28)] "GET /v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTI0LjAuNjM2Ny4yMDgaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARDG_BYaAhgHsnLGrSIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQircOGgIYB39dgjwiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABEKGuDhoCGAeiayekIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDivgcaAhgHCOK0UiIEIAEgAigBGigIARAIGhoKDQgBEAgYASIDMDAxMAQQpTkaAhgHx2Y9JSIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQ2vYCGgIYB3hkqkYiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgHleOcaiIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGAf3A12UIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARCFFhoCGAfyCyx_IgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARD7mwIaAhgH-IrkQCIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQrP0OGgIYBxjfYKQiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEJYkGgIYBygwbXsiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (60f4:2a28)]   (Sid: 38) Client -> Server @ : 1175 bytes (SSL)(Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 38) Server -> Client : 4421 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 38) Connection Terminated (by Client)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 108.177.14.84:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (60f4:41b0)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (60f4:41b0)] SSLAccept(ssl_id = 2931515619856 = 000002AA8BF27A10) Failed, ctx = 000002AA8BF6B200, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (60f4:41b0)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (60f4:2a28)]   (Sid: 39) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent click_flights [Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Web Request      (60f4:2a28)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (60f4:2a28)]   (Sid: 40) Client -> Server @ : 901 bytes (Service=HTTP)
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer (60f4:2a28)]   (Sid: 40) Server -> Client : 1104 bytes  (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:2a28)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 43)  PROXIED!
+[Web Request      (60f4:2a28)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (60f4:2a28)]   (Sid: 40) Client -> Server @ : 884 bytes (Service=HTTP)
+[Web Request      (60f4:2a28)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (60f4:2a28)]   (Sid: 41) Client -> Server @ : 885 bytes (Service=HTTP)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer (60f4:2a28)]   (Sid: 40) Server -> Client : 2009 bytes  (Service=HTTP)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 45)  PROXIED!
+[Network Analyzer (60f4:2a28)]   (Sid: 41) Server -> Client : 4775 bytes  (Service=HTTP)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 48)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 209.85.233.95:443   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (60f4:56a8)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (60f4:56a8)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (60f4:2a28)] "GET /v1/pages/ChVDaHJvbWUvMTI0LjAuNjM2Ny4yMDgSNQlBQlOibcsVChIFDVRiKa0SBQ17ncSlEgUNHzs5hRIFDdqFmWESBQ2pjkq9IZDGj2szX6mz?alt=proto"   
+[Network Analyzer (60f4:2a28)]   (Sid: 49) Client -> Server @ : 690 bytes (SSL)(Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 49) Server -> Client : 489 bytes (SSL) (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 41) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 42) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 49) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent click_flights [User action                 ] StartTransactionEvent find_flight [Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Web Request      (60f4:2a28)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (60f4:2a28)]   (Sid: 50) Client -> Server @ : 1264 bytes (Service=HTTP)
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 51)  PROXIED!
+[Network Analyzer (60f4:2a28)]   (Sid: 50) Server -> Client : 2951 bytes  (Service=HTTP)
+[Network Analyzer (60f4:2a28)]   (Sid: 47) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 48) Connection Terminated (by Client)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 52)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 53)  PROXIED!
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 54)  PROXIED!
+[User action                 ] EndTransactionEvent find_flight [Network Analyzer (60f4:2a28)]   (Sid: 50) Connection Terminated (by Server)
+[Network Analyzer (60f4:2a28)]   (Sid: 52) Connection Terminated (by Client)
+[Network Analyzer (60f4:2a28)]   (Sid: 51) Connection Terminated (by Client)
+[Network Analyzer (60f4:4e58)] Address lookup for DESKTOP-EPA92BI = 192.168.0.107
+[Network Analyzer (60f4:4e58)] Request Connection: Remote Server @ 108.177.14.84:443   (Service=)  (Sid= 55)  PROXIED!
+[Network Analyzer (60f4:5214)]   (Sid: 55) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (60f4:5214)] SSLAccept(ssl_id = 2931516022288 = 000002AA8BF89E10) Failed, ctx = 000002AA8BF6B200, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (60f4:5214)]   (Sid: 55) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (60f4:2a28)]   (Sid: 55) Connection Terminated (by Client)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (60f4:4e58)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[User action                 ] Pausing...  

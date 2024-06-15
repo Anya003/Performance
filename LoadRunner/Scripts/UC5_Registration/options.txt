@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Cource\Stream_1\Examples\Scripts\UC5_Registration
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\cource\stream_1\examples\scripts\uc5_registration\\logfile.log
+d:\cource\stream_1\examples\scripts\uc5_registration\\combined_UC5_Registration.c
+d:\cource\stream_1\examples\scripts\uc5_registration\\pre_cci.c

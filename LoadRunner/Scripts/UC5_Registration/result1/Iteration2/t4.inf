@@ -1,0 +1,16 @@
+[t4]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=text/html
+StepName=Custom Request: home.html
+Total=2
+FileName1=t4.html
+FileName2=t7_0_profileValidate.UNK
+RequestHeaderFile=t4_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=1716483486177
+RawStepName=
+RequestBodyFile=t4_RequestBody.txt
+RawStepStartTime=1716483486193
+URL1=http://localhost:1080/cgi-bin/nav.pl?in=home
+URL2=http://localhost:1080/WebTours/profileValidate.js

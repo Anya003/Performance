@@ -1,0 +1,16 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=text/html
+StepName=Custom Request: welcome.pl
+Total=2
+FileName1=t3.html
+FileName2=t7_8_profileValidate.UNK
+RequestHeaderFile=t3_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t3_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=welcome.pl
+RequestBodyFile=t3_RequestBody.txt
+RawStepStartTime=1716483497553
+URL1=http://localhost:1080/cgi-bin/welcome.pl?signOff=true
+URL2=http://localhost:1080/WebTours/profileValidate.js

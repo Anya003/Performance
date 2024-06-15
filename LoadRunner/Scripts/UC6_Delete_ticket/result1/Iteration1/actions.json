@@ -1,0 +1,111 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: WebTours",
+                "infFile": "t1.inf",
+                "time": 1716483818294
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: header.html",
+                "infFile": "t2.inf",
+                "time": 1716483818360
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1716483818435
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: login.pl",
+                "infFile": "t7.inf",
+                "time": 1716483818749
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: Itinerary Button",
+                "infFile": "t10.inf",
+                "time": 1716483819009
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: nav.pl_3",
+                "infFile": "t11.inf",
+                "time": 1716483819104
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: itinerary.pl",
+                "infFile": "t12.inf",
+                "time": 1716483819210
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: itinerary.pl_2",
+                "infFile": "t13.inf",
+                "time": 1716483820241
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: SignOff Button",
+                "infFile": "t14.inf",
+                "time": 1716483820373
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: nav.pl_4",
+                "infFile": "t15.inf",
+                "time": 1716483820463
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "home_page",
+                "rawStartTime": 1716483818066,
+                "rawEndTime": 1716483818600,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07535934448242188
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1716483818615,
+                "rawEndTime": 1716483818901,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006448030471801758
+            },
+            {
+                "transactionName": "click_itinerary",
+                "rawStartTime": 1716483818933,
+                "rawEndTime": 1716483819328,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014566183090209961
+            },
+            {
+                "transactionName": "delete_ticket",
+                "rawStartTime": 1716483820116,
+                "rawEndTime": 1716483820272,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003984689712524414
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1716483820287,
+                "rawEndTime": 1716483820475,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0070836544036865238
+            },
+            {
+                "transactionName": "UC4_Itinerary",
+                "rawStartTime": 1716483818051,
+                "rawEndTime": 1716483820491,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10744190216064453
+            }
+        ]
+    }
+]
