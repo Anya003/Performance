@@ -1,4 +1,4 @@
 "firstName=Rechell&lastName=Green&address1=New York&address2=11201&pass1=Rechell+Green&creditCa"
-"rd=1234567890123456&expDate=02%2F2025&oldCCOption=&numPassengers=1&seatType=Business&seatPref="
-"Window&outboundFlight=730%3B253%3B05%2F23%2F2024&advanceDiscount=0&returnFlight=&JSFormSubmit="
-"off&buyFlights.x=50&buyFlights.y=9&.cgifields=saveCC"
+"rd=1234567890123456&expDate=02%2F2025&oldCCOption=&numPassengers=1&seatType=First&seatPref=Ais"
+"le&outboundFlight=480%3B2679%3B07%2F02%2F2024&advanceDiscount=0&returnFlight=&JSFormSubmit=off"
+"&buyFlights.x=50&buyFlights.y=9&.cgifields=saveCC"

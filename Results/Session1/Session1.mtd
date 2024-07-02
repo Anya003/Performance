@@ -1,0 +1,4949 @@
+﻿[General]
+TableCount=19
+
+[Table_0]
+FactTableName=Breakdown_meter
+DimensionCount=24
+
+[Breakdown_meter_Dim0]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Breakdown_map
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=APPLICATION
+Dim_1=IMAGE
+Dim_2=Page
+Dim_3=TEXT
+LikeMode=0
+
+[Breakdown_meter_Dim1]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Breakdown_map
+NumValues=50
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=50
+Dim_0=localh.../reservations.pl
+Dim_1=localh.../reservations.pl (main URL)
+Dim_2=localh...bin/itinerary.pl
+Dim_3=localh...bin/itinerary.pl (main URL)
+Dim_4=localh...bTours/home.html
+Dim_5=localh...cgi-bin/login.pl
+Dim_6=localh...cgi-bin/login.pl (main URL)
+Dim_7=localh...n/nav.pl?in=home
+Dim_8=localh...n/nav.pl?in=home (main URL)
+Dim_9=localh...ours/header.html
+Dim_10=localh...ours/header.html (main URL)
+Dim_11=localhos....pl?intro=true
+Dim_12=localhos..._itinerary.gif
+Dim_13=localhos..._itinerary.gif (main URL)
+Dim_14=localhos...=&getInfo=true
+Dim_15=localhos...=&getInfo=true (main URL)
+Dim_16=localhos...e.pl?signOff=1
+Dim_17=localhos...e.pl?signOff=1 (main URL)
+Dim_18=localhos...e=menu&in=home
+Dim_19=localhos...enu&in=flights
+Dim_20=localhos...eservation.gif
+Dim_21=localhos...ileValidate.js
+Dim_22=localhos...ileValidate.js (main URL)
+Dim_23=localhos...l?page=welcome
+Dim_24=localhos...l?signOff=true
+Dim_25=localhos...l?signOff=true (main URL)
+Dim_26=localhos...page=itinerary
+Dim_27=localhos...page=itinerary (main URL)
+Dim_28=localhos...pl?page=search
+Dim_29=localhos...pl?page=search (main URL)
+Dim_30=localhos...servations.gif
+Dim_31=localhos...u&in=itinerary
+Dim_32=localhos...u&in=itinerary (main URL)
+Dim_33=localhost:1080/WebTours
+Dim_34=localhost:1080/WebTours (main URL)
+Dim_35=web_concurrent_end_Action_100
+Dim_36=web_concurrent_end_Action_110
+Dim_37=web_concurrent_end_Action_111
+Dim_38=web_concurrent_end_Action_112
+Dim_39=web_concurrent_end_Action_117
+Dim_40=web_concurrent_end_Action_156
+Dim_41=web_concurrent_end_Action_163
+Dim_42=web_concurrent_end_Action_165
+Dim_43=web_concurrent_end_Action_168
+Dim_44=web_concurrent_end_Action_173
+Dim_45=web_concurrent_end_Action_205
+Dim_46=web_concurrent_end_Action_212
+Dim_47=web_concurrent_end_Action_214
+Dim_48=web_concurrent_end_Action_243
+Dim_49=web_concurrent_end_Action_265
+LikeMode=0
+
+[Breakdown_meter_Dim2]
+InternalDimName=Connection
+Dimension=Connection
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.001000
+
+[Breakdown_meter_Dim3]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[Breakdown_meter_Dim4]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[Breakdown_meter_Dim5]
+InternalDimName=Size
+Dimension=Size
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.648438
+Dim_1=11.329102
+
+[Breakdown_meter_Dim6]
+InternalDimName=DNS Resolution
+Dimension=DNS Resolution
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.002000
+
+[Breakdown_meter_Dim7]
+InternalDimName=SendSize
+Dimension=SendSize
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.518555
+Dim_1=1.549805
+
+[Breakdown_meter_Dim8]
+InternalDimName=First Buffer
+Dimension=First Buffer
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.001000
+Dim_1=0.176000
+
+[Breakdown_meter_Dim9]
+InternalDimName=SSL Handshaking
+Dimension=SSL Handshaking
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Breakdown_meter_Dim10]
+InternalDimName=Network
+Dimension=Network
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.002000
+
+[Breakdown_meter_Dim11]
+InternalDimName=Server
+Dimension=Server
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.175000
+
+[Breakdown_meter_Dim12]
+InternalDimName=Error
+Dimension=Error
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.001000
+
+[Breakdown_meter_Dim13]
+InternalDimName=Client
+Dimension=Client
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.002000
+
+[Breakdown_meter_Dim14]
+InternalDimName=Receive
+Dimension=Receive
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.001000
+
+[Breakdown_meter_Dim15]
+InternalDimName=FTP Authentication
+Dimension=FTP Authentication
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Breakdown_meter_Dim16]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Breakdown_meter_Dim17]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Breakdown_meter_Dim18]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=111
+Dim_0=4
+Dim_1=5
+Dim_2=6
+Dim_3=7
+Dim_4=8
+Dim_5=9
+Dim_6=10
+Dim_7=11
+Dim_8=12
+Dim_9=14
+Dim_10=15
+Dim_11=16
+Dim_12=17
+Dim_13=18
+Dim_14=20
+Dim_15=21
+Dim_16=22
+Dim_17=23
+Dim_18=25
+Dim_19=26
+Dim_20=27
+Dim_21=28
+Dim_22=29
+Dim_23=30
+Dim_24=31
+Dim_25=32
+Dim_26=33
+Dim_27=35
+Dim_28=36
+Dim_29=37
+Dim_30=38
+Dim_31=39
+Dim_32=41
+Dim_33=42
+Dim_34=43
+Dim_35=44
+Dim_36=45
+Dim_37=46
+Dim_38=47
+Dim_39=48
+Dim_40=49
+Dim_41=50
+Dim_42=52
+Dim_43=53
+Dim_44=54
+Dim_45=55
+Dim_46=56
+Dim_47=57
+Dim_48=58
+Dim_49=59
+Dim_50=60
+Dim_51=61
+Dim_52=62
+Dim_53=63
+Dim_54=64
+Dim_55=65
+Dim_56=66
+Dim_57=67
+Dim_58=68
+Dim_59=70
+Dim_60=71
+Dim_61=74
+Dim_62=75
+Dim_63=76
+Dim_64=77
+Dim_65=78
+Dim_66=79
+Dim_67=80
+Dim_68=81
+Dim_69=82
+Dim_70=84
+Dim_71=85
+Dim_72=86
+Dim_73=87
+Dim_74=88
+Dim_75=90
+Dim_76=91
+Dim_77=92
+Dim_78=93
+Dim_79=94
+Dim_80=96
+Dim_81=97
+Dim_82=99
+Dim_83=100
+Dim_84=102
+Dim_85=103
+Dim_86=105
+Dim_87=106
+Dim_88=107
+Dim_89=108
+Dim_90=111
+Dim_91=112
+Dim_92=113
+Dim_93=114
+Dim_94=115
+Dim_95=116
+Dim_96=117
+Dim_97=118
+Dim_98=119
+Dim_99=121
+Dim_100=122
+Dim_101=123
+Dim_102=124
+Dim_103=125
+Dim_104=127
+Dim_105=128
+Dim_106=129
+Dim_107=130
+Dim_108=131
+Dim_109=133
+Dim_110=134
+AsParent=1
+BasedOnTableName=
+
+[Breakdown_meter_Dim19]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[Breakdown_meter_Dim20]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[Breakdown_meter_Dim21]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[Breakdown_meter_Dim22]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[Breakdown_meter_Dim23]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[Table_1]
+FactTableName=DataPoint_meter
+DimensionCount=11
+
+[DataPoint_meter_Dim0]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=DataPoint_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[DataPoint_meter_Dim1]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[DataPoint_meter_Dim2]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=DataPoint_meter
+NumValues=27
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=81
+Dim_0=0.000218
+Dim_1=0.000543
+Dim_2=vuser_init_Transaction
+Dim_3=1.000000
+Dim_4=2.000000
+Dim_5=New Connections
+Dim_6=-2.000000
+Dim_7=2.000000
+Dim_8=Connections
+Dim_9=664.000000
+Dim_10=14271.000000
+Dim_11=Throughput
+Dim_12=1.000000
+Dim_13=6.000000
+Dim_14=Hits
+Dim_15=1.000000
+Dim_16=6.000000
+Dim_17=HTTP_200
+Dim_18=4.113221
+Dim_19=24.193815
+Dim_20=home_page
+Dim_21=1.000000
+Dim_22=3.000000
+Dim_23=Connection Shutdowns
+Dim_24=1.000000
+Dim_25=1.000000
+Dim_26=Connection closed by server
+Dim_27=31.152262
+Dim_28=42.189601
+Dim_29=login
+Dim_30=0.140749
+Dim_31=0.172128
+Dim_32=click_flights
+Dim_33=0.190719
+Dim_34=0.333616
+Dim_35=click_itinerary
+Dim_36=0.147020
+Dim_37=30.204836
+Dim_38=logout
+Dim_39=130.503024
+Dim_40=130.549047
+Dim_41=UC2_Login_logout
+Dim_42=130.503061
+Dim_43=1577.177072
+Dim_44=Action_Transaction
+Dim_45=52.071130
+Dim_46=57.087595
+Dim_47=find_flight
+Dim_48=144.543802
+Dim_49=212.940189
+Dim_50=UC4_Itinerary
+Dim_51=168.123059
+Dim_52=168.123598
+Dim_53=sign_up_now
+Dim_54=0.062963
+Dim_55=0.075093
+Dim_56=choose_flight
+Dim_57=33.069307
+Dim_58=33.083759
+Dim_59=delete_ticket
+Dim_60=0.060441
+Dim_61=0.081082
+Dim_62=payment_details
+Dim_63=274.902502
+Dim_64=274.979735
+Dim_65=UC2_BuyTicket
+Dim_66=275.565373
+Dim_67=275.644177
+Dim_68=UC3_Find_flights
+Dim_69=-26377.000000
+Dim_70=-26377.000000
+Dim_71=Error -26377
+Dim_72=0.000007
+Dim_73=0.000029
+Dim_74=vuser_end_Transaction
+Dim_75=1340.533595
+Dim_76=1384.869659
+Dim_77=fill_user_data
+Dim_78=1532.850592
+Dim_79=1577.177029
+Dim_80=UC5_Registration
+
+[DataPoint_meter_Dim3]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[DataPoint_meter_Dim4]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[DataPoint_meter_Dim5]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[DataPoint_meter_Dim6]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[DataPoint_meter_Dim7]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[DataPoint_meter_Dim8]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[DataPoint_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[DataPoint_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_2]
+FactTableName=Diagnostic_meter
+DimensionCount=8
+
+[Diagnostic_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[Diagnostic_meter_Dim1]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Diagnostic_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[Diagnostic_meter_Dim2]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=Diagnostic_meter
+NumValues=27
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=81
+Dim_0=0.000218
+Dim_1=0.000543
+Dim_2=vuser_init_Transaction
+Dim_3=1.000000
+Dim_4=2.000000
+Dim_5=New Connections
+Dim_6=-2.000000
+Dim_7=2.000000
+Dim_8=Connections
+Dim_9=664.000000
+Dim_10=14271.000000
+Dim_11=Throughput
+Dim_12=1.000000
+Dim_13=6.000000
+Dim_14=Hits
+Dim_15=1.000000
+Dim_16=6.000000
+Dim_17=HTTP_200
+Dim_18=4.113221
+Dim_19=24.193815
+Dim_20=home_page
+Dim_21=1.000000
+Dim_22=3.000000
+Dim_23=Connection Shutdowns
+Dim_24=1.000000
+Dim_25=1.000000
+Dim_26=Connection closed by server
+Dim_27=31.152262
+Dim_28=42.189601
+Dim_29=login
+Dim_30=0.140749
+Dim_31=0.172128
+Dim_32=click_flights
+Dim_33=0.190719
+Dim_34=0.333616
+Dim_35=click_itinerary
+Dim_36=0.147020
+Dim_37=30.204836
+Dim_38=logout
+Dim_39=130.503024
+Dim_40=130.549047
+Dim_41=UC2_Login_logout
+Dim_42=130.503061
+Dim_43=1577.177072
+Dim_44=Action_Transaction
+Dim_45=52.071130
+Dim_46=57.087595
+Dim_47=find_flight
+Dim_48=144.543802
+Dim_49=212.940189
+Dim_50=UC4_Itinerary
+Dim_51=168.123059
+Dim_52=168.123598
+Dim_53=sign_up_now
+Dim_54=0.062963
+Dim_55=0.075093
+Dim_56=choose_flight
+Dim_57=33.069307
+Dim_58=33.083759
+Dim_59=delete_ticket
+Dim_60=0.060441
+Dim_61=0.081082
+Dim_62=payment_details
+Dim_63=274.902502
+Dim_64=274.979735
+Dim_65=UC2_BuyTicket
+Dim_66=275.565373
+Dim_67=275.644177
+Dim_68=UC3_Find_flights
+Dim_69=-26377.000000
+Dim_70=-26377.000000
+Dim_71=Error -26377
+Dim_72=0.000007
+Dim_73=0.000029
+Dim_74=vuser_end_Transaction
+Dim_75=1340.533595
+Dim_76=1384.869659
+Dim_77=fill_user_data
+Dim_78=1532.850592
+Dim_79=1577.177029
+Dim_80=UC5_Registration
+
+[Diagnostic_meter_Dim3]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[Diagnostic_meter_Dim4]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Diagnostic_meter_Dim5]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Diagnostic_meter_Dim6]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[Diagnostic_meter_Dim7]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[Table_3]
+FactTableName=Error_meter
+DimensionCount=14
+
+[Error_meter_Dim0]
+InternalDimName=Father ID
+Dimension=Father ID
+EqualFlag=1
+DimensionTableName=Error_meter
+NumValues=1
+DimensionType=DiscreteNumber
+UseEscapeSequence=1
+DimCount=1
+Dim_0=11
+LikeMode=0
+
+[Error_meter_Dim1]
+InternalDimName=Line Number
+Dimension=Line Number
+EqualFlag=1
+DimensionTableName=Error_meter
+NumValues=1
+DimensionType=DiscreteNumber
+UseEscapeSequence=1
+DimCount=1
+Dim_0=225
+LikeMode=0
+
+[Error_meter_Dim2]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Error_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[Error_meter_Dim3]
+InternalDimName=Error Message
+Dimension=Error Message
+EqualFlag=1
+DimensionTableName=ErrorMessage
+NumValues=2
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=2
+Dim_0=Action.c(225) Error -26377 No match found for the requested parameter "cgifields". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the re_1
+Dim_1=Action.c(225) Error -26377 No match found for the requested parameter "flightID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the res_0
+LikeMode=0
+
+[Error_meter_Dim4]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[Error_meter_Dim5]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[Error_meter_Dim6]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Error_meter_Dim7]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Error_meter_Dim8]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[Error_meter_Dim9]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[Error_meter_Dim10]
+InternalDimName=Action Name
+Dimension=Action Name
+EqualFlag=1
+DimensionTableName=ScriptActions
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=Action
+LikeMode=0
+
+[Error_meter_Dim11]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[Error_meter_Dim12]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[Error_meter_Dim13]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_4]
+FactTableName=Event_meter
+DimensionCount=13
+
+[Event_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[Event_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[Event_meter_Dim2]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=27
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=81
+Dim_0=0.000218
+Dim_1=0.000543
+Dim_2=vuser_init_Transaction
+Dim_3=1.000000
+Dim_4=2.000000
+Dim_5=New Connections
+Dim_6=-2.000000
+Dim_7=2.000000
+Dim_8=Connections
+Dim_9=664.000000
+Dim_10=14271.000000
+Dim_11=Throughput
+Dim_12=1.000000
+Dim_13=6.000000
+Dim_14=Hits
+Dim_15=1.000000
+Dim_16=6.000000
+Dim_17=HTTP_200
+Dim_18=4.113221
+Dim_19=24.193815
+Dim_20=home_page
+Dim_21=1.000000
+Dim_22=3.000000
+Dim_23=Connection Shutdowns
+Dim_24=1.000000
+Dim_25=1.000000
+Dim_26=Connection closed by server
+Dim_27=31.152262
+Dim_28=42.189601
+Dim_29=login
+Dim_30=0.140749
+Dim_31=0.172128
+Dim_32=click_flights
+Dim_33=0.190719
+Dim_34=0.333616
+Dim_35=click_itinerary
+Dim_36=0.147020
+Dim_37=30.204836
+Dim_38=logout
+Dim_39=130.503024
+Dim_40=130.549047
+Dim_41=UC2_Login_logout
+Dim_42=130.503061
+Dim_43=1577.177072
+Dim_44=Action_Transaction
+Dim_45=52.071130
+Dim_46=57.087595
+Dim_47=find_flight
+Dim_48=144.543802
+Dim_49=212.940189
+Dim_50=UC4_Itinerary
+Dim_51=168.123059
+Dim_52=168.123598
+Dim_53=sign_up_now
+Dim_54=0.062963
+Dim_55=0.075093
+Dim_56=choose_flight
+Dim_57=33.069307
+Dim_58=33.083759
+Dim_59=delete_ticket
+Dim_60=0.060441
+Dim_61=0.081082
+Dim_62=payment_details
+Dim_63=274.902502
+Dim_64=274.979735
+Dim_65=UC2_BuyTicket
+Dim_66=275.565373
+Dim_67=275.644177
+Dim_68=UC3_Find_flights
+Dim_69=-26377.000000
+Dim_70=-26377.000000
+Dim_71=Error -26377
+Dim_72=0.000007
+Dim_73=0.000029
+Dim_74=vuser_end_Transaction
+Dim_75=1340.533595
+Dim_76=1384.869659
+Dim_77=fill_user_data
+Dim_78=1532.850592
+Dim_79=1577.177029
+Dim_80=UC5_Registration
+
+[Event_meter_Dim3]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[Event_meter_Dim4]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Event_meter_Dim5]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Event_meter_Dim6]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=25
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=13
+Dim_5=19
+Dim_6=24
+Dim_7=34
+Dim_8=40
+Dim_9=51
+Dim_10=69
+Dim_11=72
+Dim_12=73
+Dim_13=83
+Dim_14=89
+Dim_15=95
+Dim_16=98
+Dim_17=101
+Dim_18=104
+Dim_19=109
+Dim_20=110
+Dim_21=120
+Dim_22=126
+Dim_23=132
+Dim_24=135
+AsParent=1
+BasedOnTableName=
+
+[Event_meter_Dim7]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[Event_meter_Dim8]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[Event_meter_Dim9]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[Event_meter_Dim10]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[Event_meter_Dim11]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[Event_meter_Dim12]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_5]
+FactTableName=J2EETBD_meter
+DimensionCount=7
+
+[J2EETBD_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[J2EETBD_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[J2EETBD_meter_Dim2]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=J2EETBD_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[J2EETBD_meter_Dim3]
+InternalDimName=Num Exception
+Dimension=Num Exception
+EqualFlag=1
+DimensionTableName=J2EETBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[J2EETBD_meter_Dim4]
+InternalDimName=Num Timeout
+Dimension=Num Timeout
+EqualFlag=1
+DimensionTableName=J2EETBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[J2EETBD_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[J2EETBD_meter_Dim6]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[Table_6]
+FactTableName=J2EETBD_Net_meter
+DimensionCount=6
+
+[J2EETBD_Net_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[J2EETBD_Net_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[J2EETBD_Net_meter_Dim2]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=J2EETBD_Net_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[J2EETBD_Net_meter_Dim3]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=136
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+AsParent=1
+BasedOnTableName=
+
+[J2EETBD_Net_meter_Dim4]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[J2EETBD_Net_meter_Dim5]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[Table_7]
+FactTableName=Monitor_meter
+DimensionCount=8
+
+[Monitor_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[Monitor_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[Monitor_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Monitor_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Monitor_meter_Dim4]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Monitor_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[Monitor_meter_Dim5]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=Monitor_meter
+NumValues=27
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=81
+Dim_0=0.000218
+Dim_1=0.000543
+Dim_2=vuser_init_Transaction
+Dim_3=1.000000
+Dim_4=2.000000
+Dim_5=New Connections
+Dim_6=-2.000000
+Dim_7=2.000000
+Dim_8=Connections
+Dim_9=664.000000
+Dim_10=14271.000000
+Dim_11=Throughput
+Dim_12=1.000000
+Dim_13=6.000000
+Dim_14=Hits
+Dim_15=1.000000
+Dim_16=6.000000
+Dim_17=HTTP_200
+Dim_18=4.113221
+Dim_19=24.193815
+Dim_20=home_page
+Dim_21=1.000000
+Dim_22=3.000000
+Dim_23=Connection Shutdowns
+Dim_24=1.000000
+Dim_25=1.000000
+Dim_26=Connection closed by server
+Dim_27=31.152262
+Dim_28=42.189601
+Dim_29=login
+Dim_30=0.140749
+Dim_31=0.172128
+Dim_32=click_flights
+Dim_33=0.190719
+Dim_34=0.333616
+Dim_35=click_itinerary
+Dim_36=0.147020
+Dim_37=30.204836
+Dim_38=logout
+Dim_39=130.503024
+Dim_40=130.549047
+Dim_41=UC2_Login_logout
+Dim_42=130.503061
+Dim_43=1577.177072
+Dim_44=Action_Transaction
+Dim_45=52.071130
+Dim_46=57.087595
+Dim_47=find_flight
+Dim_48=144.543802
+Dim_49=212.940189
+Dim_50=UC4_Itinerary
+Dim_51=168.123059
+Dim_52=168.123598
+Dim_53=sign_up_now
+Dim_54=0.062963
+Dim_55=0.075093
+Dim_56=choose_flight
+Dim_57=33.069307
+Dim_58=33.083759
+Dim_59=delete_ticket
+Dim_60=0.060441
+Dim_61=0.081082
+Dim_62=payment_details
+Dim_63=274.902502
+Dim_64=274.979735
+Dim_65=UC2_BuyTicket
+Dim_66=275.565373
+Dim_67=275.644177
+Dim_68=UC3_Find_flights
+Dim_69=-26377.000000
+Dim_70=-26377.000000
+Dim_71=Error -26377
+Dim_72=0.000007
+Dim_73=0.000029
+Dim_74=vuser_end_Transaction
+Dim_75=1340.533595
+Dim_76=1384.869659
+Dim_77=fill_user_data
+Dim_78=1532.850592
+Dim_79=1577.177029
+Dim_80=UC5_Registration
+
+[Monitor_meter_Dim6]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[Monitor_meter_Dim7]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[Table_8]
+FactTableName=Sap_osm_meter
+DimensionCount=6
+
+[Sap_osm_meter_Dim0]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[Sap_osm_meter_Dim1]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[Sap_osm_meter_Dim2]
+InternalDimName=PageOutKB
+Dimension=PageOutKB
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_osm_meter_Dim3]
+InternalDimName=PageInKB
+Dimension=PageInKB
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_osm_meter_Dim4]
+InternalDimName=Disks
+Dimension=Disks
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_osm_meter_Dim5]
+InternalDimName=CPU
+Dimension=CPU
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Table_9]
+FactTableName=Sap_sr_meter
+DimensionCount=34
+
+[Sap_sr_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[Sap_sr_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[Sap_sr_meter_Dim2]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Sap_sr_meter_Dim3]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Sap_sr_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=136
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+AsParent=1
+BasedOnTableName=
+
+[Sap_sr_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[Sap_sr_meter_Dim6]
+InternalDimName=Roll In Time
+Dimension=Roll In Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim7]
+InternalDimName=Output Len
+Dimension=Output Len
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim8]
+InternalDimName=Input Len
+Dimension=Input Len
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim9]
+InternalDimName=Queue Time
+Dimension=Queue Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim10]
+InternalDimName=Cpu Time
+Dimension=Cpu Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim11]
+InternalDimName=Resp Time
+Dimension=Resp Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim12]
+InternalDimName=Lock Time
+Dimension=Lock Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim13]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[Sap_sr_meter_Dim14]
+InternalDimName=Database Time
+Dimension=Database Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim15]
+InternalDimName=Start Time
+Dimension=Start Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim16]
+InternalDimName=Rfc Time
+Dimension=Rfc Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim17]
+InternalDimName=Network Time
+Dimension=Network Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim18]
+InternalDimName=End-User Time
+Dimension=End-User Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim19]
+InternalDimName=GuiNet Time
+Dimension=GuiNet Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim20]
+InternalDimName=Roll Out Time
+Dimension=Roll Out Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim21]
+InternalDimName=Roll Wait Time
+Dimension=Roll Wait Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim22]
+InternalDimName=Cuaload Time
+Dimension=Cuaload Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim23]
+InternalDimName=Dynpload Time
+Dimension=Dynpload Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim24]
+InternalDimName=Repload Time
+Dimension=Repload Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim25]
+InternalDimName=Generate Time
+Dimension=Generate Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim26]
+InternalDimName=Commit Time
+Dimension=Commit Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim27]
+InternalDimName=DB Time to Record
+Dimension=DB Time to Record
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim28]
+InternalDimName=Database Records
+Dimension=Database Records
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim29]
+InternalDimName=Gui Time
+Dimension=Gui Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim30]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[Sap_sr_meter_Dim31]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[Sap_sr_meter_Dim32]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[Sap_sr_meter_Dim33]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_10]
+FactTableName=Sap_wpm_meter
+DimensionCount=8
+
+[Sap_wpm_meter_Dim0]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[Sap_wpm_meter_Dim1]
+InternalDimName=StoppedOther
+Dimension=StoppedOther
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim2]
+InternalDimName=StoppedPRIV
+Dimension=StoppedPRIV
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim3]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[Sap_wpm_meter_Dim4]
+InternalDimName=Ended
+Dimension=Ended
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim5]
+InternalDimName=StoppedCPIC
+Dimension=StoppedCPIC
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim6]
+InternalDimName=Running
+Dimension=Running
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim7]
+InternalDimName=Waiting
+Dimension=Waiting
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Table_11]
+FactTableName=SARM_meter
+DimensionCount=12
+
+[SARM_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[SARM_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[SARM_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[SARM_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[SARM_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=136
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+AsParent=1
+BasedOnTableName=
+
+[SARM_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[SARM_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=SARM_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[SARM_meter_Dim7]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[SARM_meter_Dim8]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[SARM_meter_Dim9]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[SARM_meter_Dim10]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[SARM_meter_Dim11]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_12]
+FactTableName=SARM_Net_meter
+DimensionCount=11
+
+[SARM_Net_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[SARM_Net_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[SARM_Net_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[SARM_Net_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[SARM_Net_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=136
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+AsParent=1
+BasedOnTableName=
+
+[SARM_Net_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[SARM_Net_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=SARM_Net_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[SARM_Net_meter_Dim7]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[SARM_Net_meter_Dim8]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[SARM_Net_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[SARM_Net_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_13]
+FactTableName=SQLBD_meter
+DimensionCount=13
+
+[SQLBD_meter_Dim0]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[SQLBD_meter_Dim1]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[SQLBD_meter_Dim2]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[SQLBD_meter_Dim3]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[SQLBD_meter_Dim4]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[SQLBD_meter_Dim5]
+InternalDimName=Other Time
+Dimension=Other Time
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[SQLBD_meter_Dim7]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=27
+DimensionType=RelatedContinuous
+BaseDimension=Element Name
+DimCount=81
+Dim_0=0.000218
+Dim_1=0.000543
+Dim_2=vuser_init_Transaction
+Dim_3=1.000000
+Dim_4=2.000000
+Dim_5=New Connections
+Dim_6=-2.000000
+Dim_7=2.000000
+Dim_8=Connections
+Dim_9=664.000000
+Dim_10=14271.000000
+Dim_11=Throughput
+Dim_12=1.000000
+Dim_13=6.000000
+Dim_14=Hits
+Dim_15=1.000000
+Dim_16=6.000000
+Dim_17=HTTP_200
+Dim_18=4.113221
+Dim_19=24.193815
+Dim_20=home_page
+Dim_21=1.000000
+Dim_22=3.000000
+Dim_23=Connection Shutdowns
+Dim_24=1.000000
+Dim_25=1.000000
+Dim_26=Connection closed by server
+Dim_27=31.152262
+Dim_28=42.189601
+Dim_29=login
+Dim_30=0.140749
+Dim_31=0.172128
+Dim_32=click_flights
+Dim_33=0.190719
+Dim_34=0.333616
+Dim_35=click_itinerary
+Dim_36=0.147020
+Dim_37=30.204836
+Dim_38=logout
+Dim_39=130.503024
+Dim_40=130.549047
+Dim_41=UC2_Login_logout
+Dim_42=130.503061
+Dim_43=1577.177072
+Dim_44=Action_Transaction
+Dim_45=52.071130
+Dim_46=57.087595
+Dim_47=find_flight
+Dim_48=144.543802
+Dim_49=212.940189
+Dim_50=UC4_Itinerary
+Dim_51=168.123059
+Dim_52=168.123598
+Dim_53=sign_up_now
+Dim_54=0.062963
+Dim_55=0.075093
+Dim_56=choose_flight
+Dim_57=33.069307
+Dim_58=33.083759
+Dim_59=delete_ticket
+Dim_60=0.060441
+Dim_61=0.081082
+Dim_62=payment_details
+Dim_63=274.902502
+Dim_64=274.979735
+Dim_65=UC2_BuyTicket
+Dim_66=275.565373
+Dim_67=275.644177
+Dim_68=UC3_Find_flights
+Dim_69=-26377.000000
+Dim_70=-26377.000000
+Dim_71=Error -26377
+Dim_72=0.000007
+Dim_73=0.000029
+Dim_74=vuser_end_Transaction
+Dim_75=1340.533595
+Dim_76=1384.869659
+Dim_77=fill_user_data
+Dim_78=1532.850592
+Dim_79=1577.177029
+Dim_80=UC5_Registration
+
+[SQLBD_meter_Dim8]
+InternalDimName=Prepare
+Dimension=Prepare
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim9]
+InternalDimName=Execute
+Dimension=Execute
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim10]
+InternalDimName=Initial Fetch
+Dimension=Initial Fetch
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim11]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[SQLBD_meter_Dim12]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_14]
+FactTableName=TruClientBreakDown_meter
+DimensionCount=11
+
+[TruClientBreakDown_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=136
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+AsParent=1
+BasedOnTableName=
+
+[TruClientBreakDown_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim6]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim7]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim8]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=TruClientBreakDown_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[TruClientBreakDown_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_15]
+FactTableName=TruClientJsBreakdown_meter
+DimensionCount=11
+
+[TruClientJsBreakdown_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=136
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+AsParent=1
+BasedOnTableName=
+
+[TruClientJsBreakdown_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim6]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim7]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim8]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=TruClientJsBreakdown_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[TruClientJsBreakdown_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_16]
+FactTableName=URL_meter
+DimensionCount=10
+
+[URL_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[URL_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[URL_meter_Dim2]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=136
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+AsParent=1
+BasedOnTableName=
+
+[URL_meter_Dim3]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[URL_meter_Dim4]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[URL_meter_Dim5]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[URL_meter_Dim6]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[URL_meter_Dim7]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=URL_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[URL_meter_Dim8]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[URL_meter_Dim9]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_17]
+FactTableName=VuserEvent_meter
+DimensionCount=10
+
+[VuserEvent_meter_Dim0]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[VuserEvent_meter_Dim1]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[VuserEvent_meter_Dim2]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[VuserEvent_meter_Dim3]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[VuserEvent_meter_Dim4]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[VuserEvent_meter_Dim5]
+InternalDimName=Vuser End Status Name
+Dimension=Vuser End Status Name
+EqualFlag=1
+DimensionTableName=VuserEndStatus
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=Error
+Dim_1=Failed
+Dim_2=Passed
+Dim_3=Stopped
+LikeMode=0
+
+[VuserEvent_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=VuserEvent_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[VuserEvent_meter_Dim7]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[VuserEvent_meter_Dim8]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[VuserEvent_meter_Dim9]
+InternalDimName=Vuser Status Name
+Dimension=Vuser Status Name
+EqualFlag=1
+DimensionTableName=VuserStatus
+NumValues=5
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=5
+Dim_0=Load
+Dim_1=Pause
+Dim_2=Quit
+Dim_3=Ready
+Dim_4=Run
+LikeMode=0
+
+[Table_18]
+FactTableName=WebEvent_meter
+DimensionCount=11
+
+[WebEvent_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=27
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=27
+Dim_0=Action_Transaction
+Dim_1=choose_flight
+Dim_2=click_flights
+Dim_3=click_itinerary
+Dim_4=Connection closed by server
+Dim_5=Connection Shutdowns
+Dim_6=Connections
+Dim_7=delete_ticket
+Dim_8=Error -26377
+Dim_9=fill_user_data
+Dim_10=find_flight
+Dim_11=Hits
+Dim_12=home_page
+Dim_13=HTTP_200
+Dim_14=login
+Dim_15=logout
+Dim_16=New Connections
+Dim_17=payment_details
+Dim_18=sign_up_now
+Dim_19=Throughput
+Dim_20=UC2_BuyTicket
+Dim_21=UC2_Login_logout
+Dim_22=UC3_Find_flights
+Dim_23=UC4_Itinerary
+Dim_24=UC5_Registration
+Dim_25=vuser_end_Transaction
+Dim_26=vuser_init_Transaction
+LikeMode=0
+
+[WebEvent_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=Retry
+Dim_4=Transaction
+Dim_5=Web
+LikeMode=0
+
+[WebEvent_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[WebEvent_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[WebEvent_meter_Dim4]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=scenario.lrr
+LikeMode=0
+
+[WebEvent_meter_Dim5]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[WebEvent_meter_Dim6]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=00000000-0000-0000-0000-000000000000
+LikeMode=0
+
+[WebEvent_meter_Dim7]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=UC1_Login_logout
+Dim_1=UC2_Buy_Ticket
+Dim_2=UC3_Find_flights
+Dim_3=UC4_Itinerary
+Dim_4=UC5_Registration
+Dim_5=UC6_Delete_ticket
+LikeMode=0
+
+[WebEvent_meter_Dim8]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 2
+Dim_1=Dummy2
+LikeMode=0
+
+[WebEvent_meter_Dim9]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=WebEvent_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=1579.000000
+
+[WebEvent_meter_Dim10]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=WebEvent_meter
+NumValues=27
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=81
+Dim_0=0.000218
+Dim_1=0.000543
+Dim_2=vuser_init_Transaction
+Dim_3=1.000000
+Dim_4=2.000000
+Dim_5=New Connections
+Dim_6=-2.000000
+Dim_7=2.000000
+Dim_8=Connections
+Dim_9=664.000000
+Dim_10=14271.000000
+Dim_11=Throughput
+Dim_12=1.000000
+Dim_13=6.000000
+Dim_14=Hits
+Dim_15=1.000000
+Dim_16=6.000000
+Dim_17=HTTP_200
+Dim_18=4.113221
+Dim_19=24.193815
+Dim_20=home_page
+Dim_21=1.000000
+Dim_22=3.000000
+Dim_23=Connection Shutdowns
+Dim_24=1.000000
+Dim_25=1.000000
+Dim_26=Connection closed by server
+Dim_27=31.152262
+Dim_28=42.189601
+Dim_29=login
+Dim_30=0.140749
+Dim_31=0.172128
+Dim_32=click_flights
+Dim_33=0.190719
+Dim_34=0.333616
+Dim_35=click_itinerary
+Dim_36=0.147020
+Dim_37=30.204836
+Dim_38=logout
+Dim_39=130.503024
+Dim_40=130.549047
+Dim_41=UC2_Login_logout
+Dim_42=130.503061
+Dim_43=1577.177072
+Dim_44=Action_Transaction
+Dim_45=52.071130
+Dim_46=57.087595
+Dim_47=find_flight
+Dim_48=144.543802
+Dim_49=212.940189
+Dim_50=UC4_Itinerary
+Dim_51=168.123059
+Dim_52=168.123598
+Dim_53=sign_up_now
+Dim_54=0.062963
+Dim_55=0.075093
+Dim_56=choose_flight
+Dim_57=33.069307
+Dim_58=33.083759
+Dim_59=delete_ticket
+Dim_60=0.060441
+Dim_61=0.081082
+Dim_62=payment_details
+Dim_63=274.902502
+Dim_64=274.979735
+Dim_65=UC2_BuyTicket
+Dim_66=275.565373
+Dim_67=275.644177
+Dim_68=UC3_Find_flights
+Dim_69=-26377.000000
+Dim_70=-26377.000000
+Dim_71=Error -26377
+Dim_72=0.000007
+Dim_73=0.000029
+Dim_74=vuser_end_Transaction
+Dim_75=1340.533595
+Dim_76=1384.869659
+Dim_77=fill_user_data
+Dim_78=1532.850592
+Dim_79=1577.177029
+Dim_80=UC5_Registration
+

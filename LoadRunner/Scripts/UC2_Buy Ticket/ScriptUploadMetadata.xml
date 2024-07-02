@@ -18,6 +18,7 @@
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="182897330440.idx" Filter="1" />
     <FileEntry Name="205977879440.idx" Filter="1" />
+    <FileEntry Name="252212844440.idx" Filter="1" />
     <FileEntry Name="253090086440.idx" Filter="1" />
     <FileEntry Name="41216856440.idx" Filter="1" />
     <FileEntry Name="4121685644_0zT.205.idx" Filter="1" />
@@ -30,7 +31,9 @@
     <FileEntry Name="4121685644_rgh.799.idx" Filter="1" />
     <FileEntry Name="4121685644_Vlr.905.idx" Filter="1" />
     <FileEntry Name="4121685644_Z6N.637.idx" Filter="1" />
+    <FileEntry Name="56422105440.idx" Filter="1" />
     <FileEntry Name="56557908440.idx" Filter="1" />
+    <FileEntry Name="63685003440.idx" Filter="1" />
     <FileEntry Name="79231103440.idx" Filter="1" />
     <FileEntry Name="7923110344_2Nf.471.idx" Filter="1" />
     <FileEntry Name="7923110344_8GR.675.idx" Filter="1" />
@@ -54,6 +57,7 @@
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvY2t.693.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />

@@ -1,4 +1,0 @@
-"firstName=Roey&lastName=Tribbiani&address1=New York&address2=10014&pass1=Roey+Tribbiani&credit"
-"Card=3456789012345678&expDate=11%2F2028&oldCCOption=&numPassengers=1&seatType=Business&seatPre"
-"f=None&outboundFlight=770%3B0%3B05%2F23%2F2024&advanceDiscount=0&returnFlight=&JSFormSubmit=of"
-"f&buyFlights.x=50&buyFlights.y=9&.cgifields=saveCC"

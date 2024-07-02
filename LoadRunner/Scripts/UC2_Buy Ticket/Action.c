@@ -1,9 +1,5 @@
 Action()
 {
-	lr_save_string("jojo", "login");
-	lr_save_string("bean", "password");
-	
-	
 	lr_start_transaction("UC2_BuyTicket");
 
 	
